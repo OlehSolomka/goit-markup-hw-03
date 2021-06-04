@@ -59,6 +59,9 @@ p {
   display: flex;
   align-items: center;
 }
+.header > a {
+  margin-right: 93px;
+}
 .page-header .contact-list {
   display: flex;
   margin-left: auto;
@@ -85,7 +88,6 @@ p {
 
 .nav-list {
   display: flex;
-  margin-left: 93px;
 }
 .nav-list .item:not(:last-child) {
   margin-right: 50px;
@@ -149,6 +151,8 @@ p {
 .hero-page {
   background-color: var(--section-background);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-header {
   color: var(--text-color-third);
@@ -225,7 +229,9 @@ p {
 .task li + li {
   margin-left: 30px;
 }
-
+.task img {
+  display: block;
+}
 .team {
   background-color: var(--secondary-background-color);
 }
@@ -241,20 +247,24 @@ p {
 }
 
 .team-list .description {
-  margin-bottom: 30px;
-
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
 .team-member {
-  margin-top: 30px;
   margin-bottom: 10px;
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+}
+.team .member {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.team img {
+  display: block;
 }
 
 /* FOOTER */
